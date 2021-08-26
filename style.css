@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+h1{
+    color: #5b5b5b;
+    font-family: 'Monserrat';
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+p{
+    color : #0b0d17;
+    font-family: 'Monserrat';
+}
+
+h3 {
+    font-family: 'Montserrat';
+    color: #0B0D17;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 40px;
+}
+
+img{
+    width: 337px;
+    height: 256px;
+    margin-top: 20px;
+}
+
+/*  container three */
+
+.container-three {
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-right {
+    text-align: left!important;
+    margin: 80px;
+    margin-left: 250px;
+}
+
+.row > .col-right > h1 {
+    color : #5b5b5b;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.bold-text {
+    color: #e12637;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.btn-danger-upper{
+    background-image: linear-gradient(to right, rgb(240, 38, 38), rgb(211, 19, 67));
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.btn-danger-upper:hover{
+    background-image: linear-gradient(to right, rgb(185, 3, 3), rgb(184, 2, 47));
+}
+
+.col-left{
+    /* align-items: center;
+    justify-content: center; */
+    margin-left: 200px;
+}
+
+.third-image {
+    width:90%;
+    height: auto;
+}
+
+
+
+/* About section */
+
+.about-section {
+    width: 100%;
+    background-image: url(./images/frame.jpg);
+    background-size: cover;
+}
+
+.container-two {
+    width: 80%;
+    margin: auto;
+}
+
+.abt-row{
+    display: flex;
+}
+
+.second-image {
+    height: 556px;
+    margin: 80px;
+}
+
+.abt-col-right {
+    width: 40%;
+    text-align: left!important;
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+.abt-col-right > h1{
+    margin-bottom: 45px;
+}
+.abt-col-right > p{
+    font-size: 20px;
+}
+
+
+.btn-danger {
+    background-image: linear-gradient(to right, rgb(240, 38, 38), rgb(211, 19, 67));
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 100px;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+/* my recpies section */
+.recpies {
+    background: #ffffff;
+    width: 100%;
+}
+.recpie-container{
+    width: 70%;
+    margin: auto;
+}
+
+.recpies-header{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.recpies-header p {
+    font-family: 'Montserrat';
+    padding-top: 2%;
+}
+
+.recpie-wrap {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.recpie-row{
+    display: flex;
+}
+
+.recpie-row > div{
+    flex-basis: 33.33%;
+    text-align: center;
+}
+
+.food-img{
+    width: 80%;
+}
+
+.recpie{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+}
+
+.he3{
+    padding-top: 5%;
+    font-family: 'Montserrat';
+}
+
+.sub-wrap {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+
+.sub-row{
+    display: flex;
+}
+.sub-row> div {
+    flex-basis: 333.33%;
+    text-align: center;
+    justify-content: center;
+}
+.m{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.m h1{
+    color: black;
+    font-family: 'Montserrat';
+}
+.m p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding-top: 4%;
+}
+/* footer area */
+
+footer{
+    background-color: black;
+}
+footer > h2{
+    font-family: 'Montserrat';
+    font-size: 30pt;
+    text-align: center;
+    color :#5b5b5b;
+    padding-top: 3%;
+}
+footer >p {
+    color :#fff;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3%;
+}
